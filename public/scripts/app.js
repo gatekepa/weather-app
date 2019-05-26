@@ -2,7 +2,6 @@ const weatherForm = document.getElementById("get-weather")
 const messageOneEl = document.getElementById("message-1")
 const messageTwoEl = document.getElementById("message-2")
 
-
 weatherForm.addEventListener("submit", (e) => {
     e.preventDefault()
     messageOneEl.innerHTML = "<img id='loading' src='/images/loading.gif'>"
