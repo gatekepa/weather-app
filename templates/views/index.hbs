@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="icon" href="/images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>Enter an address below to find out what the weather is like there</p>
+            <form id="get-weather">
+                <input type="text" name="address" id="address-input" placeholder="e.g. Otahuhu">
+                <input type="submit" id="submit" value="Get the weather">
+            </form>
+            <div id="weather-container">
+                <p id="message-1"></p>
+                <p id="message-2"></p>
+            </div>
+        </div>
+        {{>footer}}
+        <script src="scripts/app.js"></script>
+    </body>
+</html>

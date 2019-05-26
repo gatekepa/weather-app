@@ -1,0 +1,81 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-size: 1em;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    height: 1.5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    border-style: none;
+    display: inline-block;
+    -moz-box-sizing: content-box; /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#address-input {
+    background-color: #dddddd;
+    padding-left: 5px;
+}
+
+#submit {
+    transition: .25s ease-in-out;
+    background-color: #1788d3;
+    color: #ecf3f7;
+}
+
+#submit:hover {
+    transition: .25s ease-in-out;
+    background-color: #1788d3b0;
+}
+
+#weather-container {
+    margin-top: 16px;
+}
+
+#loading {
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
